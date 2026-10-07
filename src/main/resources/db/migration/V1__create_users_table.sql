@@ -1,0 +1,5 @@
+CREATE TABLE tb_users (
+    id BINARY(16) NOT NULL PRIMARY KEY,
+    username VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL
+)
